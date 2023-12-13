@@ -1,0 +1,87 @@
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.credit-card {
+  padding: 32px 25px;
+  margin: 0 auto;
+  margin-top: 12px;
+  max-width: 480px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.credit-card img {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  height: 48px;
+}
+
+.credit-card__number {
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-bottom: 32px;
+}
+
+.credit-card__info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.credit-card__info_name {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.credit-card__info_label {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.credit-card__info_value {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  margin: 32px auto;
+  padding: 32px 25px;
+}
+
+form label {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+form input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+}
+
+form input:focus {
+  border-color: #000;
+  outline: none;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+}
